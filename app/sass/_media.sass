@@ -1,0 +1,141 @@
+
+@media only screen and (max-width : 1900px)
+
+	.header
+		&__tel
+			color: #fff
+
+			&::before
+				background: #fff
+
+			&:hover,
+			&:focus
+				color: #fff
+
+
+@media only screen and (max-width : 992px)
+
+	.main
+		&::before
+			right: -130px
+
+	.hero
+		&__item
+			margin-right: 15px
+
+@media only screen and (max-width : 767px)
+	.hero
+
+		&__list
+			justify-content: space-around
+			margin-bottom: 70px
+
+		&__item
+			width: 45%
+			margin-bottom: 20px
+
+	.main
+		&::before
+			top: -50px
+
+
+@media only screen and (max-width : 576px)
+
+	h1, h3, .hero__sub-title
+		text-align: center
+
+	h1
+		text-shadow: 3px 5px 6px rgba($text, .4)
+
+	.main
+		&::before
+			top: 0
+			right: -150px
+
+	.parallax
+		display: none
+
+	.header
+		&__logo
+			img
+				width: 100px
+
+	.hero
+		padding: 30px 0
+
+		h1
+			font-size: 50px
+
+		h3
+			font-size: 24px
+
+		&__btn
+			margin-bottom: 30px
+
+			&::before
+				display: none
+
+		&__item
+			img
+				margin-right: 10px
+
+			&:last-child
+				margin-bottom: 0
+
+		&__list
+			margin-bottom: 30px
+
+
+@media only screen and (max-width : 480px)
+	.main
+		&::after
+			bottom: -100px
+
+		&::before 
+			top: 0
+			right: -222px
+
+	.header
+		
+		&__container
+			flex-direction: column
+
+		&__btn
+			flex-direction: column
+	
+	.hero
+		h1
+			font-size: 46px
+
+		&__sub-title
+			margin-bottom: 20px
+
+		&__item
+			width: 100%
+
+		&__soc
+			a
+				margin-right: 10px
+
+			img
+				width: 18px
+
+		.btn
+			font-size: 28px
+			padding: 0 10px
+
+
+	.footer
+		padding: 15px
+
+		&__container
+			flex-direction: column
+				
+
+
+
+
+
+
+
+

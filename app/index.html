@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Закажите качественный дизайн или ремонт под ключ, в городе Краснодар</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="img/favicon.ico">
+	<meta name="theme-color" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css?v=1">
+
+</head>
+
+<body>
+
+	<main class="main">
+
+		<img src="img/parallax1.png" alt="" class="parallax parallax--speed-one parallax--position-one">
+		<img src="img/parallax2.png" alt="" class="parallax parallax--speed-two parallax--position-two">
+		<img src="img/parallax3.png" alt="" class="parallax parallax--speed-three parallax--position-three">
+
+		<header class="header">
+			<div class="header__container container">
+			
+				<a href="index.html" class="header__logo">
+					<img src="img/logo.png" alt="logo">
+				</a>
+
+				<div class="header__btn">
+					<a href="tel:79186290888" class="header__tel">+7 (918) 629-08-88</a>
+					<a href="#" class="btn order_open">Заказать звонок</a>
+				</div>
+			
+			</div>
+		</header>
+
+		<section class="hero">
+			<div class="container">
+
+				<h1>Закажите качественный</h1>
+				<h3>дизайн или ремонт под ключ, в городе Краснодар</h3>
+				<p class="hero__sub-title">Получите до 30% скидку на все работы и дизайн проект в подарок</p>
+
+				<div class="hero__list">
+					
+					<div class="hero__item">
+						<img src="img/01.svg" alt="">
+						<p>Демократичные <br>цены</p>
+					</div>
+
+					<div class="hero__item">
+						<img src="img/02.svg" alt="">
+						<p>Европейское <br>качество</p>
+					</div>
+
+					<div class="hero__item">
+						<img src="img/03.svg" alt="">
+						<p>Индивидуальный <br>подход</p>
+					</div>
+
+				</div>
+
+				<div class="hero__btn">
+					<a href="#" class="btn">Рассчитать стоимость</a>
+				</div>
+
+				<div class="hero__soc">
+
+					<a href="#" target="_blank">
+						<img src="img/whatsapp.svg" alt="">
+						<span>watsapp</span>
+					</a>
+					<a href="#" target="_blank">
+						<img src="img/telegram.svg" alt="">
+						<span>telegram</span>
+					</a>
+					<a href="#" target="_blank">
+						<img src="img/viber-logo.svg" alt="">
+						<span>viber</span>
+					</a>
+
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__container container">
+				<p>© 2018-2019 Comfort</p>
+				<a href="#">Политика конфиденциальности</a>
+			</div>
+		</footer>
+	
+	</main>
+
+	<!-- modal -->
+		<div class="modal" id="order">
+			<button class="close order_close" type="button">
+				<span></span>
+				<span></span>
+			</button>
+
+			<form action="sendmail.php" class="form" method="post">
+				<h3>Оставьте заявку, <br>мы свяжемся с Вами</h3>
+				<input type="hidden" name="subject" value="Узнать подробнее!">
+
+				<div class="">
+					<input type="text" name="name" placeholder="Имя" required>
+				</div>
+				<div class="">
+					<input type="tel" name="phone" required placeholder="Телефон">
+				</div>
+				<div class="">
+					<button type="submit" class="btn" name="submit">Отправить</button>
+				</div>
+			</form>
+		</div>
+
+		<div class="modal" id="thanks">
+			<button class="close thanks_close" type="button">
+				<span></span>
+				<span></span>
+			</button>
+			<h3>Спасибо <br>за доверие!</h3>
+			<p>Мы обязательно с вами свяжемся!</p>
+		</div>
+	<!-- modal end-->
+
+	<script src="js/scripts.min.js"></script>
+
+
+</body>
+</html>
